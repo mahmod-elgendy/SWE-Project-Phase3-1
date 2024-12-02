@@ -1,0 +1,86 @@
+.card {
+    border-radius: 15px;
+    border: none;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-body {
+    padding: 30px;
+  }
+
+  .card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3db3b3;
+  }
+
+  .card-text {
+    color: #666;
+    font-size: 1.1rem;
+  }
+
+  .btn-primary {
+    background-color: #3db3b3;
+    border-color: #3db3b3;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+
+  .btn-primary:hover {
+    background-color: #2a8a8a;
+    border-color: #2a8a8a;
+  }
+
+  .mentor-profile-page {
+    padding: 60px 0;
+  }
+
+  .mentor-profile-page h4 {
+    color: #3db3b3;
+  }
+
+  .mentor-profile-page p {
+    font-size: 1.1rem;
+    color: #666;
+  }
+
+  .upload-btn {
+    background-color: #3db3b3;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+  .upload-btn:hover {
+    background-color: #2a8a8a;
+  }
+
+  .profile-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .profile-header h3 {
+    color: #3db3b3;
+    font-size: 2.5rem;
+  }
+
+  .profile-header .badge {
+    font-size: 1.2rem;
+    padding: 8px 15px;
+    background-color: #3db3b3;
+    color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  .btn-primary upload-btn {
+    border-color: #3db3b3;
+    color: #3db3b3;
+    transition: all 0.3s ease;
+}

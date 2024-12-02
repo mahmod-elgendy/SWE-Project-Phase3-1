@@ -1,0 +1,85 @@
+.signup-page {
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+  }
+
+  .signup-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+  }
+
+  .signup-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .signup-form input[type="text"],
+  .signup-form input[type="email"],
+  .signup-form input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+  .signup-form .btn-signup {
+    width: 100%;
+    padding: 12px;
+    background-color: #3db3b3;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .signup-form .btn-signup:hover {
+    background-color: #3db3b3;
+  }
+
+  .signup-form .login-link {
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  .signup-form .login-link a {
+    color: #3db3b3;
+    text-decoration: none;
+  }
+/* Style for the date picker */
+.datepicker {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color: #333;
+    transition: border-color 0.3s ease;
+  }
+  
+  .datepicker:focus {
+    border-color: #3db3b3; /* Adding focus color */
+    outline: none;
+  }
+  
+  /* Adding a custom calendar icon */
+  .datepicker::-webkit-calendar-picker-indicator {
+    background-color: #3db3b3;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
